@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#3498db">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>古诗分组背诵</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>古诗分组背诵</h1>
+    </header>
+
+    <main>
+        <div class="controls">
+            <button id="groupBtn">随机分组</button>
+            <select id="groupCount">
+                <option value="2">2组</option>
+                <option value="3">3组</option>
+                <option value="4" selected>4组</option>
+                <option value="5">5组</option>
+                <option value="6">6组</option>
+            </select>
+        </div>
+
+        <div class="poetry-container">
+            <div id="poetry-list">
+                <!-- 诗歌列表将通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 古诗分组背诵. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
